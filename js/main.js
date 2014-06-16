@@ -4,4 +4,4 @@ $('ul.nav a').filter(function() {
     return this.href == url;
 }).parent().addClass('active');
 
-$("#header").load("header.html");
+$("#header").load("pages/header.html");
